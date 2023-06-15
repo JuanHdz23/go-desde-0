@@ -1,8 +1,10 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 
+	// "github.com/juanhdz23/go-desde-0/iteraciones"
+	// "github.com/juanhdz23/go-desde-0/teclado"
 	"github.com/juanhdz23/go-desde-0/ejercicios"
 	// "runtime"
 	// "github.com/juanhdz23/go-desde-0/variables"
@@ -34,7 +36,11 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	variable1, variable2 := ejercicios.Publica("150")
-	fmt.Println(variable1)
-	fmt.Println(variable2)
+	// variable1, variable2 := ejercicios.Publica("150")
+	// fmt.Println(variable1)
+	// fmt.Println(variable2)
+
+	// teclado.IngresoNumeros()
+	// iteraciones.Iterar()
+	ejercicios.Publica2()
 }
