@@ -1,11 +1,8 @@
 package main
 
-import (
-	// "fmt"
-
-	// "github.com/juanhdz23/go-desde-0/iteraciones"
-	// "github.com/juanhdz23/go-desde-0/teclado"
-	"github.com/juanhdz23/go-desde-0/ejercicios"
+import ( // "fmt"
+	// "github.com/juanhdz23/go-desde-0/ejercicios"
+	"github.com/juanhdz23/go-desde-0/files"
 	// "runtime"
 	// "github.com/juanhdz23/go-desde-0/variables"
 )
@@ -42,5 +39,9 @@ func main() {
 
 	// teclado.IngresoNumeros()
 	// iteraciones.Iterar()
-	ejercicios.Publica2()
+	// fmt.Println(ejercicios.Publica2())
+	// files.GrabaTabla()
+	// files.SumaTabla()
+	// files.LeoArchivo()
+	files.LeoArchivo2()
 }
